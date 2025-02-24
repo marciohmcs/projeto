@@ -1,0 +1,654 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "145b",
+      "nome": "Marcos",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "nome": null,
+      "carne": null,
+      "pao": null,
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "Ab4RVb9"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "MbljLgX"
+    },
+    {
+      "nome": "Marcio",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": "foTt0Q6"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "eEX7_Ij"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "uWfdSIQ"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "FDjXEYS"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "DNWdmDr"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "3Ty_k8H"
+    },
+    {
+      "nome": "Marcio",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": "xncvafX"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "bD3TbOy"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "8BiPdms"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "hs9O1n3"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "OBnjRXf"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "YbxWDxn"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "9QEsKLw"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "Uazi9A9"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "puySrYx"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "-tXbxux"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "M5Abmi3"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "Q7Zcloh"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "24D4081"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "78BuS3C"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "0t5wNob"
+    },
+    {
+      "nome": null,
+      "carne": null,
+      "pao": null,
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "CDp14h3"
+    },
+    {
+      "nome": "João",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "kHECcSE"
+    },
+    {
+      "nome": "",
+      "carne": "Carne bovina",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "TqdlqRo"
+    },
+    {
+      "nome": "",
+      "carne": "Carne ",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "M5pRP0e"
+    },
+    {
+      "nome": "",
+      "carne": " ",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "KHk_nMt"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "rp0yZt3"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "Pão de ",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "fqYJgPo"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "Pão  ",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "WyYTIy6"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "  ",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "yBSe4JL"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "5rkMidt"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [
+        ""
+      ],
+      "status": "Solicitado",
+      "id": "1WxaS3q"
+    },
+    {
+      "nome": "",
+      "carne": "Carne ",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "kdzW19q"
+    },
+    {
+      "nome": "",
+      "carne": " ",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "5vSRyla"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "Pão de forma",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "6mqKRq0"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [
+        "Queijo"
+      ],
+      "status": "Solicitado",
+      "id": "skstvl_"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "MVz6laL"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "hMklWVf"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "xurbZ6T"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "ZHei6bK"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "uXRn3v4"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "AQ_YvB8"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "d4M6vjK"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "dD9t7N4"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "v3XNoqR"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "15gdh9E"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "72SdIvE"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "g70RVa5"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "tJWopSp"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "JlZHgHl"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "dxiC81Z"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "FfwnI_Z"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "wSJRRro"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "GIyWZoS"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "IoGxIWM"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "xf2Cdar"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "oPSwG7e"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "tlqhr8Y"
+    },
+    {
+      "nome": "",
+      "carne": "",
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": "wTP_OqW"
+    }
+  ]
+}
